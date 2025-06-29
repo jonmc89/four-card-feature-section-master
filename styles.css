@@ -94,3 +94,24 @@ img {
   bottom: 3rem;
   left: 14rem;
 }
+
+/* Desktop View */
+
+@media screen and (min-width: 1440px) {
+  header {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .card {
+    width: 360px;
+    margin: 0 30px 30px 30px;
+  }
+}
