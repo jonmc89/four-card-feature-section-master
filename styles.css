@@ -1,4 +1,4 @@
-/* Universal Settings */
+/* Universal styling */
 
 * {
   padding: 0;
@@ -9,9 +9,10 @@
 body {
   font-size: 15px;
   font-family: "Poppins", sans-serif, serif;
+  padding: 2em;
 }
 
-/* Colours */
+/* Root colours */
 
 :root {
   --primary-red: hsl(0, 78%, 62%);
@@ -21,4 +22,75 @@ body {
   --grey500: hsl(234, 12%, 34%);
   --grey400: hsl(212, 6%, 44%);
   --white: hsl(0, 0%, 100%);
+}
+
+/* Typography */
+
+h1 {
+  color: var(--grey400);
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+h2,
+h3 {
+  color: var(--grey500);
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: var(--grey400);
+}
+
+.header-text {
+  word-spacing: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+/***** Mobile view *****/
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+.card {
+  height: 18em;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+  position: relative;
+  box-shadow: 0 1rem 1rem rgb(219, 228, 232);
+}
+
+.supervisor {
+  border-top: 6px solid var(--primary-cyan);
+}
+
+.team-builder {
+  border-top: 6px solid var(--primary-red);
+}
+
+.karma {
+  border-top: 6px solid var(--primary-orange);
+}
+
+.calculator {
+  border-top: 6px solid var(--primary-blue);
+}
+
+img {
+  position: absolute;
+  bottom: 3rem;
+  left: 14rem;
 }
