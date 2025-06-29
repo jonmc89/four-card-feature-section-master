@@ -1,0 +1,24 @@
+/* Universal Settings */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif, serif;
+}
+
+/* Colours */
+
+:root {
+  --primary-red: hsl(0, 78%, 62%);
+  --primary-cyan: hsl(180, 62%, 55%);
+  --primary-orange: hsl(34, 97%, 64%);
+  --primary-blue: hsl(212, 86%, 64%);
+  --grey500: hsl(234, 12%, 34%);
+  --grey400: hsl(212, 6%, 44%);
+  --white: hsl(0, 0%, 100%);
+}
